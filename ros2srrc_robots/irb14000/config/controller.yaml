@@ -1,0 +1,184 @@
+controller_manager:
+  ros__parameters:
+    
+    update_rate: 250 #Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+joint_trajectory_controller:
+  ros__parameters:
+    update_rate: 250
+    joints:
+      - joint_1_r
+      - joint_2_r
+      - joint_3_r
+      - joint_4_r
+      - joint_5_r
+      - joint_6_r
+      - joint_7_r
+      - joint_1_l
+      - joint_2_l
+      - joint_3_l
+      - joint_4_l
+      - joint_5_l
+      - joint_6_l
+      - joint_7_l
+    command_joints:
+      - joint_1_r
+      - joint_2_r
+      - joint_3_r
+      - joint_4_r
+      - joint_5_r
+      - joint_6_r
+      - joint_7_r
+      - joint_1_l
+      - joint_2_l
+      - joint_3_l
+      - joint_4_l
+      - joint_5_l
+      - joint_6_l
+      - joint_7_l
+    command_interfaces:
+      - position
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+    gains:
+      joint_1_r: 
+        p: 0.0 
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_2_r: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_3_r: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_4_r: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_5_r: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_6_r: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_7_r: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_1_l: 
+        p: 0.0 
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_2_l: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_3_l: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_4_l: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_5_l: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_6_l: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+      joint_7_l: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+        i_clamp: 0.0
+        ff_velocity_scale: 1.0
+    allow_partial_joints_goal: false
+    #allow_integration_in_goal_trajectories: false
+    constraints:
+      stopped_velocity_tolerance: 0.1
+      goal_time: 0.0
+      joint_1_r:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_2_r:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_3_r:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_4_r:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_5_r:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_6_r:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_7_r:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_1_l:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_2_l:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_3_l:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_4_l:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_5_l:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_6_l:
+        goal: 0.005
+        #trajectory: 0.10
+      joint_7_l:
+        goal: 0.005
+        #trajectory: 0.10
