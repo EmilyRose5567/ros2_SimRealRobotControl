@@ -94,7 +94,7 @@
       <visual name="visual">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/visual/base_link.dae"/>
+          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/collision/base_link.stl"/>
         </geometry>
         <xacro:material_abb_yellow />
       </visual>
@@ -268,7 +268,7 @@
       <visual name="visual">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/visual/link_1.dae"/>
+          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/collision/link_1.stl"/>
         </geometry>
         <xacro:material_abb_yellow />
       </visual>
@@ -290,7 +290,7 @@
       <visual name="visual">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/visual/link_2.dae"/>
+          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/collision/link_2.stl"/>
         </geometry>
         <xacro:material_abb_yellow />
       </visual>
@@ -312,7 +312,7 @@
       <visual name="visual">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/visual/link_3.dae"/>
+          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/collision/link_3.stl"/>
         </geometry>
         <xacro:material_abb_yellow />
       </visual>
@@ -334,7 +334,7 @@
       <visual name="visual">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/visual/link_4.dae"/>
+          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/collision/link_4.stl"/>
         </geometry>
         <xacro:material_abb_yellow />
       </visual>
@@ -356,7 +356,7 @@
       <visual name="visual">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/visual/link_5.dae"/>
+          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/collision/link_5.stl"/>
         </geometry>
         <xacro:material_abb_yellow />
       </visual>
@@ -378,7 +378,7 @@
       <visual name="visual">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/visual/link_6.dae"/>
+          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/collision/link_6.stl"/>
         </geometry>
         <xacro:material_abb_yellow />
       </visual>
@@ -399,7 +399,7 @@
       <visual name="visual">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/visual/link_7.dae"/>
+          <mesh filename="file://$(find ros2srrc_robots)/irb14000/meshes/collision/link_7.stl"/>
         </geometry>
         <xacro:material_abb_yellow />
       </visual>
