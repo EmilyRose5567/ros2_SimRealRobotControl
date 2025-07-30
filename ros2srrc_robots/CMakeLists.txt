@@ -39,7 +39,6 @@ install(
     irb120
     irb1200
     irb14000
-    irb14000_2
     irb1600
     irb6640
 

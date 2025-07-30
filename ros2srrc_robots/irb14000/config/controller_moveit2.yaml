@@ -1,29 +1,22 @@
 controller_names:
-  - rjoint_trajectory_controller_r
-  - joint_trajectory_controller_l
+  - joint_trajectory_controller
 
-right_arm_controller:
+joint_trajectory_controller:
   action_ns: follow_joint_trajectory
   type: FollowJointTrajectory
   default: true
   joints:
-    - joint_1_r
-    - joint_2_r
-    - joint_7_r
-    - joint_3_r
-    - joint_4_r
-    - joint_5_r
-    - joint_6_r
-
-left_arm_controller:
-  action_ns: follow_joint_trajectory
-  type: FollowJointTrajectory
-  default: true
-  joints:
-    - joint_1_l
-    - joint_2_l
-    - joint_7_l
-    - joint_3_l
-    - joint_4_l
-    - joint_5_l
-    - joint_6_l
+    - joint_1
+    - joint_2
+    - joint_3
+    - joint_4
+    - joint_5
+    - joint_6
+    - joint_7
+    - joint_8
+    - joint_9
+    - joint_10
+    - joint_11
+    - joint_12
+    - joint_13
+    - joint_14

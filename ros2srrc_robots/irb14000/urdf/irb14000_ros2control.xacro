@@ -28,7 +28,7 @@
 
 # ===================================== COPYRIGHT ===================================== #
 #                                                                                       #
-#  Some of the information used to build the ROS2 ABB-IRB1200 .urdf files in this ROS2   #
+#  Some of the information used to build the ROS2 ABB-IRB120 .urdf files in this ROS2   #
 #  repository has been taken from the following resource:                               #
 #       - abb_experimental (https://github.com/ros-industrial/abb_experimental)         #
 #                                                                                       #
@@ -86,29 +86,15 @@
         </hardware>
       </xacro:if>
 
-      <!-- irb1200_joint1 -->
-      <joint name="joint_1_r">
+      <!-- irb120_joint1 -->
+      <joint name="joint_1">
         <command_interface name="position">
-          <param name="min">-2.967</param>
-          <param name="max">2.967</param>
+          <param name="min">-2.87979</param>
+          <param name="max">2.87979</param>
         </command_interface>
         <command_interface name="velocity">
-          <param name="min">-3.14</param>
-          <param name="max">3.14</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-      <joint name="joint_1_l">
-        <command_interface name="position">
-          <param name="min">-2.967</param>
-          <param name="max">2.967</param>
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-3.14</param>
-          <param name="max">3.14</param>
+          <param name="min">-4.36332</param>
+          <param name="max">4.36332</param>
         </command_interface>
         <state_interface name="position">
           <param name="initial_value">0.0</param>
@@ -116,59 +102,94 @@
         <state_interface name="velocity"/>
       </joint>
 
-      <!-- irb1200_joint2 -->
-      <joint name="joint_2_r">
+      <!-- irb120_joint2 -->
+      <joint name="joint_2">
         <command_interface name="position">
-          <param name="min">-2.4</param>
-          <param name="max">0.7</param>
+          <param name="min">-1.91986</param>
+          <param name="max">1.91986</param>
         </command_interface>
         <command_interface name="velocity">
-          <param name="min">-3.14</param>
-          <param name="max">3.14</param>
+          <param name="min">-4.36332</param>
+          <param name="max">4.36332</param>
         </command_interface>
         <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-       <joint name="joint_2_l">
-        <command_interface name="position">
-          <param name="min">-2.4</param>
-          <param name="max">0.7</param>
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-3.14</param>
-          <param name="max">3.14</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
+          <param name="initial_value">-0.785</param>
         </state_interface>
         <state_interface name="velocity"/>
       </joint>
 
       <!-- irb120_joint3 -->
-      <joint name="joint_7_r">
+      <joint name="joint_3">
         <command_interface name="position">
-          <param name="min">-2.9</param>
-          <param name="max">2.9</param>
+          <param name="min">-1.91986</param>
+          <param name="max">1.22173</param>
         </command_interface>
         <command_interface name="velocity">
-          <param name="min">-3.14</param>
-          <param name="max">3.14</param>
+          <param name="min">-4.36332</param>
+          <param name="max">4.36332</param>
         </command_interface>
         <state_interface name="position">
-          <param name="initial_value">0.0</param>
+          <param name="initial_value">0.524</param>
         </state_interface>
         <state_interface name="velocity"/>
       </joint>
-      <joint name="joint_7_l">
+
+      <!-- irb120_joint4 -->
+      <joint name="joint_4">
         <command_interface name="position">
-          <param name="min">-2.9</param>
-          <param name="max">2.9</param>
+          <param name="min">-2.79253</param>
+          <param name="max">2.79253</param>
         </command_interface>
         <command_interface name="velocity">
-          <param name="min">-3.14</param>
-          <param name="max">3.14</param>
+          <param name="min">-5.58505</param>
+          <param name="max">5.58505</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">-1.309</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <!-- irb120_joint5 -->
+      <joint name="joint_5">
+        <command_interface name="position">
+          <param name="min">-2.00</param>       <!-- Joint5 limits lowered to +-2rad -->
+          <param name="max">2.00</param>
+        </command_interface>
+        <command_interface name="velocity">
+          <param name="min">-5.58505</param>
+          <param name="max">5.58505</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">0.524</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <!-- irb120_joint6 -->
+      <joint name="joint_6">
+        <command_interface name="position">
+          <param name="min">-6.98132</param> 
+          <param name="max">6.98132</param> 
+        </command_interface>
+        <command_interface name="velocity">
+          <param name="min">-7.33038</param>
+          <param name="max">7.33038</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">-0.349</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="joint_7">
+        <command_interface name="position">
+          <param name="min">-6.98132</param> 
+          <param name="max">6.98132</param> 
+        </command_interface>
+        <command_interface name="velocity">
+          <param name="min">-7.33038</param>
+          <param name="max">7.33038</param>
         </command_interface>
         <state_interface name="position">
           <param name="initial_value">0.0</param>
@@ -176,29 +197,15 @@
         <state_interface name="velocity"/>
       </joint>
 
-      <!-- irb1200_joint4 -->
-      <joint name="joint_3_r">
+      <!-- irb120_joint1 -->
+      <joint name="joint_8">
         <command_interface name="position">
-          <param name="min">-2.12</param>
-          <param name="max">1.3</param>
+          <param name="min">-2.87979</param>
+          <param name="max">2.87979</param>
         </command_interface>
         <command_interface name="velocity">
-          <param name="min">-3.14</param>
-          <param name="max">3.14</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-      <joint name="joint_3_l">
-        <command_interface name="position">
-          <param name="min">-2.12</param>
-          <param name="max">1.3</param>
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-3.14</param>
-          <param name="max">3.14</param>
+          <param name="min">-4.36332</param>
+          <param name="max">4.36332</param>
         </command_interface>
         <state_interface name="position">
           <param name="initial_value">0.0</param>
@@ -206,95 +213,100 @@
         <state_interface name="velocity"/>
       </joint>
 
-      <!-- irb1200_joint5 -->
-      <joint name="joint_4_r">
+      <!-- irb120_joint2 -->
+      <joint name="joint_9">
         <command_interface name="position">
-          <param name="min">-5</param>       <!-- Joint5 limits lowered to +-2rad -->
-          <param name="max">5</param>
+          <param name="min">-1.91986</param>
+          <param name="max">1.91986</param>
         </command_interface>
         <command_interface name="velocity">
-          <param name="min">-6.98</param>
-          <param name="max">6.98</param>
+          <param name="min">-4.36332</param>
+          <param name="max">4.36332</param>
         </command_interface>
         <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-      <joint name="joint_4_l">
-        <command_interface name="position">
-          <param name="min">-5</param>       <!-- Joint5 limits lowered to +-2rad -->
-          <param name="max">5</param>
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-6.98</param>
-          <param name="max">6.98</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
+          <param name="initial_value">0</param>
         </state_interface>
         <state_interface name="velocity"/>
       </joint>
 
-      <!-- irb1200_joint6 -->
-      <joint name="joint_6_r">
+      <!-- irb120_joint3 -->
+      <joint name="joint_10">
         <command_interface name="position">
-          <param name="min">-3.9</param> 
-          <param name="max">3.9</param> 
+          <param name="min">-1.91986</param>
+          <param name="max">1.22173</param>
         </command_interface>
         <command_interface name="velocity">
-          <param name="min">-6.98</param>
-          <param name="max">6.98</param>
+          <param name="min">-4.36332</param>
+          <param name="max">4.36332</param>
         </command_interface>
         <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-       <joint name="joint_6_l">
-        <command_interface name="position">
-          <param name="min">-3.9</param> 
-          <param name="max">3.9</param> 
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-6.98</param>
-          <param name="max">6.98</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-      <!-- irb1200_joint7 -->
-      <joint name="joint_5_r">
-        <command_interface name="position">
-          <param name="min">-1.5</param> 
-          <param name="max">2.4</param> 
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-6.98</param>
-          <param name="max">6.98</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-       <joint name="joint_5_l">
-        <command_interface name="position">
-          <param name="min">-1.5</param> 
-          <param name="max">2.4</param> 
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-6.98</param>
-          <param name="max">6.98</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
+          <param name="initial_value">0</param>
         </state_interface>
         <state_interface name="velocity"/>
       </joint>
 
+      <!-- irb120_joint4 -->
+      <joint name="joint_11">
+        <command_interface name="position">
+          <param name="min">-2.79253</param>
+          <param name="max">2.79253</param>
+        </command_interface>
+        <command_interface name="velocity">
+          <param name="min">-5.58505</param>
+          <param name="max">5.58505</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <!-- irb120_joint5 -->
+      <joint name="joint_12">
+        <command_interface name="position">
+          <param name="min">-2.00</param>       <!-- Joint5 limits lowered to +-2rad -->
+          <param name="max">2.00</param>
+        </command_interface>
+        <command_interface name="velocity">
+          <param name="min">-5.58505</param>
+          <param name="max">5.58505</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <!-- irb120_joint6 -->
+      <joint name="joint_13">
+        <command_interface name="position">
+          <param name="min">-6.98132</param> 
+          <param name="max">6.98132</param> 
+        </command_interface>
+        <command_interface name="velocity">
+          <param name="min">-7.33038</param>
+          <param name="max">7.33038</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="joint_14">
+        <command_interface name="position">
+          <param name="min">-6.98132</param> 
+          <param name="max">6.98132</param> 
+        </command_interface>
+        <command_interface name="velocity">
+          <param name="min">-7.33038</param>
+          <param name="max">7.33038</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
 
       <!-- END EFFECTOR -->
       <xacro:unless value="${bringup}">
@@ -327,6 +339,33 @@
         <selfCollide>false</selfCollide>
       </gazebo>
       <gazebo reference="link_6">
+        <selfCollide>false</selfCollide>
+      </gazebo>
+      <gazebo reference="link_7">
+        <selfCollide>false</selfCollide>
+      </gazebo>
+      <gazebo reference="base_link">
+        <selfCollide>false</selfCollide>
+      </gazebo>
+      <gazebo reference="link_8">
+        <selfCollide>false</selfCollide>
+      </gazebo>
+      <gazebo reference="link_9">
+        <selfCollide>false</selfCollide>
+      </gazebo>
+      <gazebo reference="link_10">
+        <selfCollide>false</selfCollide>
+      </gazebo>
+      <gazebo reference="link_11">
+        <selfCollide>false</selfCollide>
+      </gazebo>
+      <gazebo reference="link_12">
+        <selfCollide>false</selfCollide>
+      </gazebo>
+      <gazebo reference="link_13">
+        <selfCollide>false</selfCollide>
+      </gazebo>
+      <gazebo reference="link_14">
         <selfCollide>false</selfCollide>
       </gazebo>
     

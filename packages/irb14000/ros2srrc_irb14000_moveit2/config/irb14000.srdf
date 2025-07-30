@@ -41,40 +41,36 @@
   <group name="irb14000_arm">
     <chain base_link="base_link" tip_link="tool0"/>
   </group>
+  <group name="irb14000_left_arm">
+    <chain base_link="base_link" tip_link="tool1"/>
+  </group>
   <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
   <group_state group="irb14000_arm" name="all_zero">
-    <joint name="joint_1_r" value="0" />
-    <joint name="joint_2_r" value="0" />
-    <joint name="joint_3_r" value="0" />
-    <joint name="joint_4_r" value="0" />
-    <joint name="joint_5_r" value="0" />
-    <joint name="joint_6_r" value="0" />
-    <joint name="joint_7_r" value="0" />
-    <joint name="joint_1_l" value="0" />
-    <joint name="joint_2_l" value="0" />
-    <joint name="joint_3_l" value="0" />
-    <joint name="joint_4_l" value="0" />
-    <joint name="joint_5_l" value="0" />
-    <joint name="joint_6_l" value="0" />
-    <joint name="joint_7_l" value="0" />
+    <joint name="joint_1" value="0" />
+    <joint name="joint_2" value="0" />
+    <joint name="joint_3" value="0" />
+    <joint name="joint_4" value="0" />
+    <joint name="joint_5" value="0" />
+    <joint name="joint_6" value="0" />
+    <joint name="joint_7" value="0" />
   </group_state>
   <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
   <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
   <virtual_joint child_link="base_link" name="virtual_joint" parent_frame="world" type="fixed"/>
   <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
-  <disable_collisions link1="base_link" link2="link_1_r" reason="Adjacent" />
-  <disable_collisions link1="link_1_r" link2="link_2_r" reason="Adjacent" />
-  <disable_collisions link1="link_2_r" link2="link_3_r" reason="Adjacent" />
-  <disable_collisions link1="link_3_r" link2="link_4_r" reason="Adjacent" />
-  <disable_collisions link1="link_4_r" link2="link_5_r" reason="Adjacent" />
-  <disable_collisions link1="link_5_r" link2="link_6_r" reason="Adjacent" />
-  <disable_collisions link1="link_6_r" link2="link_7_r" reason="Adjacent" />
-  <disable_collisions link1="base_link" link2="link_1_l" reason="Adjacent" />
-  <disable_collisions link1="link_1_l" link2="link_2_l" reason="Adjacent" />
-  <disable_collisions link1="link_2_l" link2="link_3_l" reason="Adjacent" />
-  <disable_collisions link1="link_3_l" link2="link_4_l" reason="Adjacent" />
-  <disable_collisions link1="link_4_l" link2="link_5_l" reason="Adjacent" />
-  <disable_collisions link1="link_5_l" link2="link_6_l" reason="Adjacent" />
-  <disable_collisions link1="link_6_l" link2="link_7_l" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="link_1" reason="Adjacent" />
+  <disable_collisions link1="link_1" link2="link_2" reason="Adjacent" />
+  <disable_collisions link1="link_2" link2="link_3" reason="Adjacent" />
+  <disable_collisions link1="link_3" link2="link_4" reason="Adjacent" />
+  <disable_collisions link1="link_4" link2="link_5" reason="Adjacent" />
+  <disable_collisions link1="link_5" link2="link_6" reason="Adjacent" />
+  <disable_collisions link1="link_6" link2="link_7" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="link_8" reason="Adjacent" />
+  <disable_collisions link1="link_8" link2="link_9" reason="Adjacent" />
+  <disable_collisions link1="link_9" link2="link_10" reason="Adjacent" />
+  <disable_collisions link1="link_10" link2="link_11" reason="Adjacent" />
+  <disable_collisions link1="link_11" link2="link_12" reason="Adjacent" />
+  <disable_collisions link1="link_12" link2="link_13" reason="Adjacent" />
+  <disable_collisions link1="link_13" link2="link_14" reason="Adjacent" />
 
 </robot>

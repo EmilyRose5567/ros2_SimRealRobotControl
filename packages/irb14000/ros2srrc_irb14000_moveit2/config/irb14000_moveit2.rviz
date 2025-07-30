@@ -63,77 +63,85 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          link_1_l:
+          link_1:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_1_r:
+          link_2:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_2_l:
+          link_3:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_2_r:
+          link_4:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_3_l:
+          link_5:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_3_r:
+          link_6:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_4_l:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_4_r:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_5_l:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_5_r:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_6_l:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_6_r:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_7_l:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_7_r:
+          link_7:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
           tool0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          flange1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          link_8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_14:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          tool1:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -195,77 +203,85 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          link_1_l:
+          link_1:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_1_r:
+          link_2:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_2_l:
+          link_3:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_2_r:
+          link_4:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_3_l:
+          link_5:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_3_r:
+          link_6:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          link_4_l:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_4_r:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_5_l:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_5_r:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_6_l:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_6_r:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_7_l:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          link_7_r:
+          link_7:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
           tool0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          flange1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          link_8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link_14:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          tool1:
             Alpha: 1
             Show Axes: false
             Show Trail: false

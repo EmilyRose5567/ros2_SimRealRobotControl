@@ -41,7 +41,7 @@ MODULE TRob1Main
 ! 
 !   The TRob1Main.mod file provided in the public abb_ros2 (https://github.com/PickNikRobotics/abb_ros2)
 !   GitHub repository has been modified, obtaining better results and an improved Robot Motion.
-!   The ROS2-Control of the ABB IRB1200 robot is realised through the ros2srrc_irb1200_bringup ROS2 package,
+!   The ROS2-Control of the ABB IRB120 robot is realised through the ros2srrc_irb120_bringup ROS2 package,
 !   which is publicly available in the ros2_SimRealRobotControl GitHub repository:
 !         * https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl
 !

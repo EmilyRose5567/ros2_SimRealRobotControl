@@ -45,9 +45,9 @@
   <xacro:arg name="EE_name" default="none"/>
   <xacro:property name="EE_name" value="$(arg EE_name)"/>
 
-  <!-- Include XACRO-MACRO file of the IRB1200: -->
+  <!-- Include XACRO-MACRO file of the IRB120: -->
   <xacro:include filename="$(find ros2srrc_robots)/irb14000/urdf/irb14000_macro.urdf.xacro"/>	
-  <xacro:irb14000 
+  <xacro:irb14000
     bringup="${bringup}"
     robot_ip="${robot_ip}"
     EE="${EE}"
@@ -61,7 +61,7 @@
       <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
         <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
 
-        <!-- IRB1200 Controller -->
+        <!-- IRB120 Controller -->
         <parameters>$(find ros2srrc_robots)/irb14000/config/controller.yaml</parameters>
 
       </plugin>
